@@ -19,7 +19,11 @@ function DetailContainer() {
   return (
     <div>
       <h1>Character Details</h1>
-      {loading ? (<h1>Loading...</h1>) : (<CharacterDetails character={character} />)}
+      {loading ? (<img src="https://i.imgur.com/B8SSY5p.gif" alt="loading" />) : (<CharacterDetails
+        name={character.name}
+        image={character.image}
+        id={character.id}
+      />)}
     </div>
   );
 }
