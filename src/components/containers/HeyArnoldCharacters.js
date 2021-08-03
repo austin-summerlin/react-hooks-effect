@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
 import { fetchCharacters } from '../../services/heyArnoldApi';
 import CharacterList from '../CharacterList';
@@ -14,7 +15,7 @@ function HeyArnoldContainer() {
   }, []);
   return (
     <div>
-      {loading ? <p>Loading...</p> : <CharacterList characters={characters} />}
+      {loading ? (<img src="https://i.imgur.com/B8SSY5p.gif" alt="loading" />) : <CharacterList characters={characters} />}
     </div>
   );
 }
