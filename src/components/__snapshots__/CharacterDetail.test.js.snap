@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Detail Component should render correctly 1`] = `
+<DocumentFragment>
+  <figure
+    aria-label="individual"
+    role="individual"
+  >
+    <img
+      alt="Test Character"
+      src="test-image.jpg"
+    />
+    <h3>
+      Test Character
+    </h3>
+  </figure>
+</DocumentFragment>
+`;

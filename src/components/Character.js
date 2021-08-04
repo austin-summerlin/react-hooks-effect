@@ -11,7 +11,7 @@ const Character = ({ id, name, image }) => (
 );
 
 Character.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired
 };

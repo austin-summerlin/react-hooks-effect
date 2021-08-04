@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList Component should render the CharacterList component 1`] = `
+<DocumentFragment>
+  <ul
+    aria-label="character-list"
+    class="ul"
+  >
+    <li
+      class="li"
+    >
+      <a
+        class="link-display"
+        href="/undefined"
+      >
+        <img
+          alt="Test"
+          class="img"
+          src="test.png"
+        />
+        <p
+          class="name"
+        >
+          Test
+        </p>
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
