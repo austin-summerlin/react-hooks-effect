@@ -1,0 +1,13 @@
+.img{
+  width:  200px;
+  height: 200px;
+  object-fit: contain;
+  object-position: left;
+}
+
+.name{
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}

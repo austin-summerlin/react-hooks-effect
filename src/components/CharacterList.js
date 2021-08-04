@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Character from '../components/Character';
+import style from '../components/CharacterList.css';
 
 const CharacterList = ({ characters }) => (
-  <ul aria-label="character-list">
+  <ul aria-label="character-list" className={style.ul}>
     {characters.map(character => (
-      <li key={character.id}>
+      <li key={character.id} className={style.li}>
         <Character
           id={character.id}
           name={character.name}
